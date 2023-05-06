@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;700&family=Roboto:wght@100;300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+}
+
+.body-container {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body-container .main-container {
+  background-color: #E5E5E5;
+  height: 80vh;
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body-container .main-container .black-container {
+  background-color: #0B2434;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body-container .main-container .black-container .inner-container {
+  height: 350px;
+  width: 350px;
+  background: #E5E5E5;
+  border-radius: 10px;
+  position: relative;
+}
+.body-container .main-container .black-container .inner-container .tanzies {
+  margin: 30px 40px 25px 40px;
+}
+.body-container .main-container .black-container .inner-container .tanzies h1 {
+  text-align: center;
+  font-weight: 700;
+  color: #2B283A;
+}
+.body-container .main-container .black-container .inner-container .tanzies p {
+  text-align: center;
+  margin-top: 2px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #4A4E74;
+  letter-spacing: -0.5px;
+  line-height: 16px;
+}
+.body-container .main-container .black-container .inner-container .dice-box {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  place-items: center;
+  row-gap: 10px;
+  margin: 0 20px;
+}
+.body-container .main-container .black-container .inner-container .dice-box .dice {
+  height: 45px;
+  width: 45px;
+  display: grid;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  place-items: center;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.body-container .main-container .black-container .inner-container .btnDiv {
+  text-align: center;
+  margin-top: 30px;
+}
+.body-container .main-container .black-container .inner-container .btn {
+  padding: 10px 30px;
+  font-weight: 700;
+  font-size: 18px;
+  background: #5035FF;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+}
+@media screen and (max-width: 1024px) {
+  .body-container .main-container {
+    height: 90vh;
+    width: 50vw;
+  }
+}
+@media screen and (max-width: 720px) {
+  .body-container .main-container {
+    height: 90vh;
+    width: 60vw;
+  }
+}/*# sourceMappingURL=RollingDice.css.map */

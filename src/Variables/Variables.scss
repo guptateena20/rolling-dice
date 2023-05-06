@@ -1,0 +1,13 @@
+$whiteClr : #E5E5E5;
+$boxShadow : rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+@mixin flexProp() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin commonCode($h, $w) {
+    height: $h;
+    width: $w;
+}
